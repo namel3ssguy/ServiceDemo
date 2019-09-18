@@ -12,7 +12,7 @@
         android:id="@+id/bt_play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Play"
+        android:text="Run"
         android:onClick="onButtonClick"/>
 
     <Button
