@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
                 startService(new Intent(this, MusicService.class));
                 break;
             case R.id.bt_stop:
+
                 stopService(new Intent(this, MusicService.class));
                 break;
         }
